@@ -44,3 +44,16 @@ sudo modprobe facetimehd
 ```bash
 echo "facetimehd" | sudo tee -a /etc/modules
 ```
+
+# Make adjustments
+
+```bash
+sudo apt install guvcview
+```
+
+## guvcview settings
+
+- brightness: 190
+- contrast: 165
+- saturation: 140
+- hue: 128
