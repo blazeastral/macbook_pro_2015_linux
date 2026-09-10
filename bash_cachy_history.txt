@@ -1,0 +1,161 @@
+2026-09-10 11:56:47 history
+2026-09-09 10:28:22 echo $SHELL
+2026-09-09 10:28:13 pacman -Qm
+2026-09-09 10:27:33 sudo pacman -Rs freetube-bin
+2026-09-09 10:26:56 sudo pacman -Rs facetimehd-firmware
+2026-09-09 10:26:22 sudo pacman -Rs facetimehd-dkms
+2026-09-09 10:26:10 sudo pacman -Rs facetime-dkms
+2026-09-09 10:26:02 pacman -Rs facetime-dkms
+2026-09-09 10:24:29 pacman -Qdt
+2026-09-09 10:23:49 pacman -Qe
+2026-09-09 10:22:47 pacman -Qn
+2026-09-09 10:22:26 pacman -Q
+2026-09-09 10:22:21 pacmak -Q
+2026-09-02 18:30:55 exit
+2026-09-02 18:30:36 sudo grub-mkconfig -o /boot/grub/grub.cfg
+2026-09-02 18:28:09 sudo blkid
+2026-09-02 18:27:04 sudo nano /etc/grub.d/40_custom
+2026-09-02 18:25:03 sudo os-prober
+2026-09-02 18:24:47 sudo ln -s /mnt/fedora/root/boot /mnt/fedora/boot
+sudo ln -s /mnt/fedora/root/etc /mnt/fedora/etc
+2026-09-02 18:24:02 sudo mount /dev/sda5 /mnt/fedora
+2026-09-02 18:22:38 sudo mkdir -p /mnt/fedora
+2026-09-02 18:15:08 sudo nano /etc/default/grub
+2026-09-02 18:14:39 sudo pacman -S os-prober
+2026-09-02 17:34:35 go
+2026-09-02 15:51:04 sudo cat /boot/grub/grub.cfg
+2026-09-02 15:04:47 btop
+2026-08-31 17:23:57 ls
+2026-08-31 17:23:48 cd Geekbench-6.5.0-Linux/
+2026-08-31 17:14:26 echo @SHELL
+2026-08-25 10:42:50 sudo pacman -S extension-manager
+2026-08-25 10:41:57 sudo pacman -S gnome-extension-manager
+2026-08-25 10:41:49 pacman -S gnome-extension-manager
+2026-08-25 10:07:20 sudo cat /boot/grub/grub.cfg | grep cachy
+2026-08-25 10:07:04 pacman -Ss os-prober
+2026-08-25 10:05:34 sudo cat /boot/grub/grub.cfg | grep fedora
+2026-08-25 10:04:44 cat /boot/grub/grub.cfg
+2026-08-25 10:03:51 grub-mkconfig -o /boot/grub/grub.cfg
+2026-08-25 10:03:36 update-grub
+2026-08-25 10:00:53 sudo update-grub
+2026-08-20 09:17:10 sudo intel_gpu_top
+2026-08-19 21:24:48 sudo intel-gpu-tools
+2026-08-19 21:24:25 sudo pacman -Syu intel-gpu-tools
+2026-08-17 21:06:38 cat /etc/libinput.conf
+2026-08-17 12:54:38 v4l2-ctl -c brightness=180
+2026-08-17 12:54:12 v4l2-ctl -c brightness=120
+2026-08-17 12:54:00 v4l2-ctl -c brightness=0
+v4l2-ctl -c contrast=120
+v4l2-ctl -c white_balance_temperature_auto=0
+v4l2-ctl -c gamma=120
+v4l2-ctl -c white_balance_temperature=4700
+v4l2-ctl -c sharpness=100
+v4l2-ctl -c backlight_compensation=0
+v4l2-ctl -c focus_absolute=10
+v4l2-ctl --list-ctrls-menus
+
+# Set exposure_auto (menu): min=0 max=3 default=1
+#                               1: Manual Mode
+#                               3: Aperture Priority Mode
+v4l2-ctl -c exposure_auto=1
+
+v4l2-ctl -c focus_auto=0
+2026-08-17 12:52:37 v4l2-ctl -c contrast=64
+2026-08-17 12:52:30 v4l2-ctl -c contrast=250
+2026-08-17 12:52:20 v4l2-ctl -c brightness=320
+2026-08-17 12:52:05 v4l2-ctl -c brightness=200
+2026-08-17 12:52:00 v4l2-ctl -c contrast=150
+2026-08-17 12:51:44 v4l2-ctl -c brightness=220
+2026-08-17 12:51:36 v4l2-ctl -c contrast=180
+2026-08-17 12:51:29 v4l2-ctl -c contrast=130
+2026-08-17 12:51:13 v4l2-ctl -c contrast=120
+2026-08-17 12:50:54 v4l2-ctl -c contrast=100
+2026-08-17 12:50:47 v4l2-ctl -c contrast=65
+2026-08-17 12:50:13 v4l2-ctl -c brightness=160
+2026-08-17 12:49:54 v4l2-ctl -c brightness=240
+2026-08-17 12:49:39 v4l2-ctl -c brightness=64
+2026-08-17 12:49:08 v4l2-ctl --list-ctrls-menus
+2026-08-17 12:48:43 sudo pacman -S v4l-utils
+2026-08-16 11:17:34 yay -S freetube-bin
+2026-08-16 11:02:35 ./geekbench6
+2026-08-16 11:02:15 la
+2026-08-16 11:02:10 tar -zxvf Geekbench-6.5.0-Linux.tar.gz
+2026-08-16 11:01:16 wget https://cdn.geekbench.com/Geekbench-6.5.0-Linux.tar.gz
+2026-08-05 09:25:17 sudo nano /etc/libinput.conf
+2026-08-05 09:15:56 git clone https://github.com/lz42/libinput-config.git
+cd libinput-config
+meson setup build
+cd build
+ninja
+sudo ninja install
+2026-08-05 09:15:23 sudo pacman -S git meson ninja libinput
+2026-08-05 09:12:11 yay -S libinput-config
+2026-08-05 09:11:42 paru -S libinput-config
+2026-08-05 03:47:54 vim ~/.config/mpv/mpv.conf
+2026-08-05 03:47:49 vi ~/.config/mpv/mpv.conf
+2026-08-05 03:17:37 htop
+2026-08-05 03:16:39 mpv "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+2026-08-05 03:14:53 yt-dlp "https://www.youtube.com/watch?v=dQw4w9WgXcQ" -k
+2026-08-05 03:14:48 cd Downloads/
+2026-08-05 03:13:43 pwd
+2026-08-05 03:13:08 yt-dlp "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+2026-08-05 03:12:31 mpv "https://www.youtube.com/watch?failing-link"
+2026-08-05 03:12:09 sudo pacman -Sy yt-dlp
+2026-08-05 03:09:53 mkdir -p ~/.config/mpv
+nano ~/.config/mpv/mpv.conf
+2026-08-05 03:08:20 sudo pacman -S yt-dlp ffmpeg deno
+2026-08-05 03:06:02 mpv --list-options
+2026-08-05 03:05:00 mpv
+2026-08-05 02:59:46 sudo pacman -S mpv
+2026-08-05 02:54:45 sudo rm /var/lib/pacman/db.lck
+2026-08-05 02:54:24 sudo killall pacman
+2026-08-05 02:53:55 ps aux | grep -E "pacman|yay|paru"
+2026-08-02 17:09:01 paru -S tlpui
+2026-08-02 17:08:52 sudo pacman -S paru
+2026-08-02 17:03:46 sudo tlp-stat -s
+2026-08-02 17:03:02 sudo systemctl status tlp
+2026-08-02 17:02:59 sudo systemctl start tlp
+2026-08-02 17:02:33 sudo systemctl enable tlp
+2026-08-02 17:01:23 sudo pacman -S tlp tlp-rdw
+2026-08-02 17:00:42 sudo systemctl status power-profiles-daemon
+2026-08-02 17:00:16 sudo systemctl stop power-profiles-daemon
+sudo systemctl disable power-profiles-daemon
+sudo systemctl mask power-profiles-daemon
+2026-08-02 16:13:57 vainfo
+2026-08-02 16:13:35 sudo pacman -S vainfo
+2026-08-02 16:13:23 sudo pacman -Syu libva-utils
+2026-08-02 16:11:34 sudo pacman -S libva-utils
+2026-08-02 16:10:10 sudo pacman -S libva-intel-driver intel-media-driver
+2026-08-02 16:09:53 sudo pacman -Syu
+2026-08-02 14:36:41 powertop
+2026-08-02 09:33:36 tlp
+2026-08-01 19:28:10 sudo reboot
+2026-08-01 19:23:45 sudo nano /etc/libinput/local-overrides.quirks
+2026-07-31 20:35:56 fastfetch
+2026-07-31 20:33:17 sudo pacman -S code
+2026-07-31 19:03:05 libinput debug-quirks
+2026-07-31 18:56:34 sudo libinput list-devices
+2026-07-31 18:56:13 sudo pacman -S libinput-tools
+2026-07-31 18:55:18 libinput list-devices
+2026-07-31 18:47:30 v4l2-ctl -d /dev/video0 --set-ctrl=exposure_auto=1
+v4l2-ctl -d /dev/video0 --set-ctrl=exposure_absolute=150
+2026-07-31 18:47:00 v4l2-ctl -d /dev/video0 --set-ctrl=brightness=30
+2026-07-31 18:46:33 v4l2-ctl -d /dev/video0 --list-ctrls
+2026-07-31 18:43:23 echo "facetimehd" | sudo tee /etc/modules-load.d/facetimehd.conf
+2026-07-31 18:42:08 sudo dmesg | grep -i facetimehd
+2026-07-31 18:41:49 sudo modprobe facetimehd
+2026-07-31 18:41:15 sudo modprobe -r bdc_pci
+sudo modprobe facetimehd
+2026-07-31 18:38:31 yay -S facetimehd-dkms facetimehd-firmware
+2026-07-31 18:38:10 sudo pacman -S yay
+2026-07-31 18:37:13 paru -S facetimehd-dkms facetimehd-firmware
+2026-07-31 18:35:38 sudo pacman -S linux-cachyos linux-cachyos-headers
+2026-07-31 18:34:09 sudo pacman -S linux-cachyos-zen linux-cachyos-zen-headers
+2026-07-31 17:50:52 sudo systemctl restart NetworkManager.service
+
+sudo vim /etc/NetworkManager/NetworkManager.conf
+
+[device]
+	wifi.backend=iwd
+	
+2026-07-31 17:49:46 sudo vim /etc/NetworkManager/NetworkManager.conf
