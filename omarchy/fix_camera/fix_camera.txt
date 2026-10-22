@@ -1,0 +1,10 @@
+# Note Omarchy installe yay par défaut
+yay -S bcwc-pcie-dkms
+yay -S facetimehd-firmware-git
+
+# Charger le module
+sudo modprobe facetimehd
+
+# S'assurer que le module est chargé au démarrage
+echo facetimehd | sudo tee /etc/modules-load.d/facetimehd.conf
+
