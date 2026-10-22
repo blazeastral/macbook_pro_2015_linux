@@ -1,0 +1,3 @@
+# After sleep wifi seems to be disabled
+# Need to restart shell
+omarchy restart shell
